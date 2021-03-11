@@ -12,6 +12,18 @@ const PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Star Wars Characters (DATA)
+
+const characters = [
+    {
+      routeName: '',
+      name: '',
+      phone: '',
+      email: '',
+      id: 1,
+    },
+  
+  ];
 
 // Starts the server to begin listening
 
